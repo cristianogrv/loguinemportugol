@@ -1,0 +1,28 @@
+programa
+{
+   const cadeia NOME_USUARIO = "cristiano"
+   const cadeia SENHA_USUARIO = "123456"
+	
+	funcao inicio()
+	{
+          cadeia senha, usuario
+
+          escreva("insira seu usuario:")
+          leia(usuario)
+	     
+		escreva("usuario insira a sua senha:")
+		leia(senha)
+
+		se (usuario == NOME_USUARIO e senha == SENHA_USUARIO) {
+			escreva("-------------------FINDE TECNOLOGY-------------------\n")
+			escreva("-----------------------------------------------------\n")
+			escreva("-----------------BEM VINDO CRISTIANO-----------------\n")
+			escreva("                                                     \n")
+			escreva("SENHA DO COFRE PRINCIPAL:9D8SJHD6HS3                \n")
+			escreva("SENHA DE ATIVACAO DA BOMBA NUCLEAR:12DCXSA23KC8E6     \n")
+			escreva("LOCALIZACAO ATUAL DO PRESIDENTE:PAQUISTAO        \n")
+       
+		}
+	
+	}
+}
